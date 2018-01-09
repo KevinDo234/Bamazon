@@ -6,4 +6,4 @@
 3) type in "node bamazoncustomer.js"
 4) follow the instructions given in the console
 
-![alt text](https://raw.githubusercontent.com/kevindo234/Bamazon/master/images/Bamazon Customer Demo.gif)
+![alt text](https://raw.githubusercontent.com/kevindo234/Bamazon/master/images/Demo.gif)
