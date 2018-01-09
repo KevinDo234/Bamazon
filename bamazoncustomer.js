@@ -23,9 +23,9 @@ let displayInventory = () => {
     	if (err) throw err
     		for (let i = 0; i < res.length; i++) {
     			console.log("------------------------------")
-    			console.log("item number: " + res[i].item_id)
-    			console.log("item: " + res[i].product_name)
-    			console.log("price: $" + res[i].price)
+    			console.log("Item Number: " + res[i].item_id)
+    			console.log("Item: " + res[i].product_name)
+    			console.log("Price: $" + res[i].price)
     		}
     		purchase()
     	})
@@ -102,7 +102,7 @@ let purchase = () => {
                     } else {
                     	console.log("Sorry, there are not enough " + productInfo.product_name + " in stock.")
                     	console.log("Your order can not be placed.")
-                    	console.log("Please modify your order or select another item.")
+                    	console.log("Please change your order or select another item.")
                     	console.log("\n")
 
                         // After 3 seconds display the inventory again so that the customer can make a new selcetion.
